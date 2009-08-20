@@ -1,0 +1,23 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		package="com.androidemu.nes"
+		android:versionCode="11"
+		android:versionName="1.4.3">
+
+	<uses-sdk android:minSdkVersion="1" />
+
+	<application android:label="@string/app_label"
+			android:icon="@drawable/app_icon">
+
+		<activity android:name="Nesoid">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.DEFAULT" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<activity android:name="FileChooser" />
+		<activity android:name="GamePreferences" />
+
+	</application>
+</manifest>
