@@ -1,0 +1,3 @@
+This is the source codes of the android NES emulator on the market. It was posted on http://sourceforge.net/projects/androidemu/ but the author intentionally make it very difficult to be found (by removing all descriptions and by zipping the source codes). So I make them available here.
+
+I don't have time to verify if the source codes are complete, so I am also hoping someone will have time to play with it to make sure the full source codes are properly posted and honor the GPL license. It's also a good learning tool for everyone what wants to make native codes run on the android platform.
